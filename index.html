@@ -15,12 +15,17 @@
     <style type="text/tailwindcss">
         @theme {
           --font-poppins: Poppins, serif;
+          --btn-paimariy:[#E76F51];
+        
+          
           
 
         }
       </style>
+
 <!-- Daisyui cdn -->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class=" font-poppins">
     <header class="w-11/12 mx-auto">
@@ -35,7 +40,7 @@
                         <li><a>Contact</a></li>
                       </ul>
                     </div>
-                    <button class="btn bg-red-500">Button</button>
+                    <button class="btn btn bg-[#E76F51] text-white">Button</button>
         </nav>
 <!-- Hero section -->
             <div class="carousel w-full h-[600px] flex bg-[#FEDCD4] mt-10 mb-20 ">
@@ -47,7 +52,7 @@
                     <p class="text-6xl font-bold p-2">Ride-on R15 V4 <br> with Smile</p>
                     <p class="p-2">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn ">Purchase</button>
+                    <button class="btn bg-[#E76F51] text-white">Purchase</button>
                    </div>
  <!-- 1 frist image-->
                         <div class=" flex-1">
@@ -64,7 +69,7 @@
                     <div class="flex lg:p-24 flex-col lg:flex-row ">
 <!-- hero text -->
                 <div class="flex-1">
-                    <p class="text-6xl font-bold p-2">Ride-on R15 V4 <br> with Smile</p>
+                    <p class="text-5xl font-bold p-2">ucati Hypermotard 821</p>
                     <p class="p-2">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     <button class="btn ">Purchase</button>
@@ -84,9 +89,8 @@
                     <div class="flex lg:p-24 flex-col lg:flex-row ">
 <!-- hero text -->
                 <div class="flex-1">
-                    <p class="text-6xl font-bold p-2">Ride-on R15 V4 <br> with Smile</p>
-                    <p class="p-2">Amet minim mollit non deserunt ullamco 
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p class="text-5xl font-bold p-2">Triumph Daytona 675</p>
+                    <p class="p-2">The Triumph Daytona 675 is a legendary middleweight sportbike known for its high-revving inline-three engine, agile chassis, and sharp handling. Here’s a breakdown of key details, including its impact on the motorcycle world</p>
                     <button class="btn ">Purchase</button>
                    </div>
  <!-- 3 third image-->
@@ -104,9 +108,8 @@
                     <div class="flex lg:p-24 flex-col lg:flex-row ">
 <!-- hero text -->
                 <div class="flex-1">
-                    <p class="text-6xl font-bold p-2">Ride-on R15 V4 <br> with Smile</p>
-                    <p class="p-2">Amet minim mollit non deserunt ullamco 
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p class="text-5xl font-bold p-2">Harley Davidson LiveWire</p>
+                    <p class="p-2">The Harley-Davidson LiveWire is an all-electric motorcycle known for its high performance and sleek design. It features a 105-horsepower motor, reaching 0-60 mph in just 3 seconds. With a range of about 146 miles in the city, it’s designed for a thrilling yet sustainable ride. The LiveWire offers advanced tech like a full-color touchscreen, smartphone connectivity, and multiple riding modes. Its quick charging and eco-friendly electric drivetrain make it an appealing option for riders seeking a modern twist on Harley’s legendary performance..</p>
                     <button class="btn ">Purchase</button>
                    </div>
  <!-- 4 fourth image-->
@@ -160,7 +163,7 @@
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions">
-                    <button class="btn btn-primary">Read More</button>
+                    <button class="btn btn bg-[#E76F51] text-white">Read More</button>
                   </div>
                 </div>
               </div>
@@ -176,7 +179,7 @@
                   <h2 class="card-title">Motorcycles & Scooters</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions">
-                    <button class="btn">Read More</button>
+                    <button class="btn border-solid border-[#E76F51] text-[#E76F51]">Read More</button>
                   </div>
                 </div>
               </div>
@@ -192,7 +195,7 @@
                   <h2 class="card-title">2021 Honda CBR500R</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions">
-                    <button class="btn ">Read More</button>
+                    <button class="btn border-solid border-[#E76F51] text-[#E76F51]">Read More</button>
                   </div>
                 </div>
               </div>
@@ -277,6 +280,62 @@
                     </div>
             </div>
          </section>
+<!-- Asked Questions section -->
+            <section class="my-24 text-center">
+              <div class="mt-50">
+                <p><span class="font-semibold text-5xl">Frequently Asked</span><span class="font-semibold text-5xl text-[#E76F51]"> Q stions</span></p>
+              </div>
+<!-- Asked image section -->
+              <div class="hero mt-8 ">
+                <div class="hero-content flex-col md:flex-col lg:flex-row flex-1">
+                  <img
+                    src="./images/others/faq.png"
+                    class=" rounded-lg shadow-2xl" />
+<!-- Asked Accordion text section -->
+                  <div class="flex-1 space-y-5">
+                    <div class="collapse collapse-arrow bg-base-200 border border-blue-300">
+                      <input type="radio" name="my-accordion-2" checked="checked" />
+                      <div class="collapse-title text-xl font-medium">What are the most important things I should
+                        know about riding a bike?</div>
+                      <div class="collapse-content">
+                        <p>Balance and Control: Learning to balance is key. Start by practicing in a safe, open area, and focus on finding your balance while coasting. If you’re having trouble, try looking forward instead of down, which helps stabilize you.
+
+                          Braking: Mastering the brakes is vital for safety. Most bikes have two brakes—one for the front wheel and one for the rear. Practice using both gently to stop smoothly. The front brake is more powerful, so don’t slam it to avoid flipping over.
+                          
+                          Pedaling: Get used to the motion of pedaling. Make sure your pedals are at a comfortable position before you start, and keep a consistent rhythm when you pedal.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200 border border-blue-300">
+                      <input type="radio" name="my-accordion-2" checked="checked" />
+                      <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                        new one?</div>
+                      <div class="collapse-content">
+                        <p>Age of the Helmet: Most helmets have a shelf life of about 3-5 years from the date of manufacture, even if they haven't been in an accident. The materials in the helmet degrade over time due to exposure to UV light, sweat, and general wear. Check the inside of the helmet for the manufacturing date, often on a sticker inside.
+
+                          Signs of Physical Damage: If your helmet has been involved in a crash or hit hard, it’s crucial to replace it, even if there are no visible cracks. The foam inside may be compressed, which means it won’t protect you as well in the future. Look for any cracks, dents, or scuffs on the outer shell, as well.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200 border border-blue-300">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                      <div class="collapse-content">
+                        <p>Functionality: Squeeze the brake levers to ensure both the front and rear brakes engage properly. If they feel loose or unresponsive, adjust or replace the brake pads.
+                          Brake Pads: Check the thickness of the brake pads. If they’re too worn down, you’ll need to replace them for optimal braking performance.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200 border border-blue-300">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                      <div class="collapse-content">
+                        <p>When riding a bike, always follow traffic rules. Ride on the right side of the road, signal your turns, and obey traffic lights and stop signs. Wear a helmet for safety and use lights or reflectors when riding at night. Stay aware of pedestrians and other cyclists, yielding to them when necessary. Avoid riding on sidewalks unless permitted. Keep a safe distance from vehicles, and be cautious around intersections. Always check your bike’s condition before heading out, and use both brakes gently. Lastly, stay visible and be courteous to others on the road. Safety first!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+<!-- Asked Question section end -->
     </main>
+
 </body>
 </html>
