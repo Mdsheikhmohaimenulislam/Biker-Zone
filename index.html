@@ -7,14 +7,16 @@
 <!-- font awesome cnd -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <!-- tailwind cnd -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
         @theme {
           --font-poppins: Poppins, serif;
+          --font-inter: Inter, serif;
+          --font-manrope: Manrope, serif;
           --btn-paimariy:[#E76F51];
         
           
@@ -286,7 +288,7 @@
                 <p><span class="font-semibold text-5xl">Frequently Asked</span><span class="font-semibold text-5xl text-[#E76F51]"> Q stions</span></p>
               </div>
 <!-- Asked image section -->
-              <div class="hero mt-8 mb-40">
+              <div class="hero mt-8 mb-40 font-inter">
                 <div class="hero-content flex-col md:flex-col lg:flex-row flex-1">
                   <img
                     src="./images/others/faq.png"
@@ -336,9 +338,9 @@
             </section>
 <!-- Asked Question section end -->
     </main>
-    <footer class="bg-red-500">
+    <footer class="bg-red-500 w-auto ">
       <!-- <section> -->
-        <div class="w-5/6 mx-auto flex flex-col text-white justify-between  mb-50 md:flex-col lg:flex-row">
+        <div class="w-5/6 mx-auto pt-15 font-manrope flex flex-col text-white justify-between pb-10 md:flex-col lg:flex-row">
           <!-- text about content -->
           <div>
             <div class="space-y-2 mb-2 ">
@@ -364,6 +366,7 @@
           </div>
       </div>
     </div>
+
       <!-- </section> -->
     </footer>
 </body>
